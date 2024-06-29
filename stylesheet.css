@@ -2,13 +2,28 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* allign horizontally */
+    align-items: center; /* allign vertically */
     height: 100vh;
     font-family: 'Roboto', sans-serif;
     background-color: #f0f0f0;
 }
 
+.navLinks {
+    width: 100%;
+    text-align: right;
+}
+
+.navLinks a {
+    padding: 5px;
+    width: 25%;
+    text-decoration: none;
+}
+
+.navLinks a:hover {
+    text-decoration: underline;
+}
+
 .container {
-    text-align: center;
+    text-align: left;
 }
