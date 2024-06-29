@@ -11,7 +11,7 @@ body {
 
 .navLinks {
     width: 100%;
-    text-align: right;
+    text-align: center;
 }
 
 .navLinks a {
@@ -25,5 +25,5 @@ body {
 }
 
 .container {
-    text-align: left;
+    text-align: center;
 }
