@@ -6,7 +6,8 @@ body {
     align-items: center; /* allign vertically */
     height: 100vh;
     font-family: 'Roboto', sans-serif;
-    background-color: #f0f0f0;
+    background-color: #10121c;
+
 }
 
 .navLinks {
@@ -15,15 +16,22 @@ body {
 }
 
 .navLinks a {
+    color: #3388de;
     padding: 5px;
     width: 25%;
     text-decoration: none;
 }
 
 .navLinks a:hover {
+    color: #3859b3;
     text-decoration: underline;
 }
 
+.navLinks a:visited {
+    color: #3388de;
+}
+
 .container {
+    color: #f0f0f0;;
     text-align: center;
 }
