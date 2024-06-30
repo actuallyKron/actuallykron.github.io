@@ -11,15 +11,14 @@ body {
 }
 
 .navLinks {
-    width: 100%;
-    text-align: center;
+    text-align: right;
 }
 
 .navLinks a {
     color: #3388de;
-    padding: 5px;
-    width: 25%;
+    padding: 6px;
     text-decoration: none;
+    text-align: right;
 }
 
 .navLinks a:hover {
@@ -30,6 +29,10 @@ body {
 .navLinks a:visited {
     color: #3388de;
 }
+
+/* .selected {
+    background-color: red;
+} */
 
 .container {
     color: #f0f0f0;;
