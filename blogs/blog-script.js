@@ -91,7 +91,7 @@ function checkOffsets() {
     "TH",
   ]);
   const cell = gridCellDimensions();
-  //const elements = document.querySelectorAll("body :not(.debug-grid, .debug-toggle)");
+  //  const elements = document.querySelectorAll("body :not(.debug-grid, .debug-toggle)");
   const elements = document.querySelectorAll("body :not(.debug-grid");
   for (const element of elements) {
     if (ignoredTagNames.has(element.tagName)) {
@@ -120,6 +120,7 @@ function checkOffsets() {
 // debugToggle.addEventListener("change", onDebugToggle);
 // onDebugToggle();
 
-document.getElementById("return-to-home").onclick = function () {
-  location.href = "index.html";
+
+document.getElementById("return-to-blogs").onclick = function () {
+  location.href = "../blogs.html";
 };
